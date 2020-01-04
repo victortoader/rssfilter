@@ -7,7 +7,7 @@ CREATE TABLE `feeds` (
   `title` text NOT NULL,
   `description` text NOT NULL,
   `publication_date` timestamp NOT NULL,
-  `image` blob,
+  `image` longblob,
   `image_url` varchar(256),
   PRIMARY KEY (`guid`),
   UNIQUE KEY `guid_UNIQUE` (`guid`)
